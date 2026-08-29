@@ -191,4 +191,4 @@ ssh admin@R1
 # Example: SSH into Switch 1
 ssh admin@S1
 ```
-> **Note:** The Layer 1 lab is now successfully running. You may proceed to manually configure the data-plane elements (OSPF, RIPv2, VLANs) and the OOB subnets (e.g., `192.168.10.0/24`) inside the respective network operating systems.
+> **Note:** The Layer 1 lab is now successfully running. You may proceed to configure the data-plane elements (OSPF, BGP, VLANs) and the OOB subnets inside the respective network operating systems.
