@@ -191,4 +191,14 @@ ssh admin@R1
 # Example: SSH into Switch 1
 ssh admin@S1
 ```
+
+You can access these devices directly through docker as well:
+```bash
+To access an Arista switch: docker exec -it S1 Cli
+
+To access a Nokia SR Linux router: docker exec -it R1 sr_cli
+
+To access an Alpine host: docker exec -it H1 sh
+```
+
 > **Note:** The Layer 1 lab is now successfully running. You may proceed to configure the data-plane elements (OSPF, BGP, VLANs) and the OOB subnets inside the respective network operating systems.
