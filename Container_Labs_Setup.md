@@ -24,7 +24,7 @@ sudo sh get-docker.sh
 Execute the official installation script to download and install the latest Containerlab binary.
 
 ```bash
-bash -c "$(curl -sL [https://get.containerlab.dev](https://get.containerlab.dev))"
+bash -c "$(curl -sL https://get.containerlab.dev)"
 ```
 > **Note:** Verify the installation by running `containerlab version`.
 
