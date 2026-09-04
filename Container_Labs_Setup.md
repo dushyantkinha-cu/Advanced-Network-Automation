@@ -192,6 +192,11 @@ ssh admin@R1
 ssh admin@S1
 ```
 
+You can check the status of your lab, management IPs, running image, etc by running the following:
+```
+containerlab inspect --all
+```
+
 You can access these devices directly through docker as well:
 ```bash
 To access an Arista switch: docker exec -it S1 Cli
